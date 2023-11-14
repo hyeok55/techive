@@ -16,6 +16,7 @@ class PostList(generics.ListCreateAPIView):
     serializer_class = PostSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
+'''
 # view 증가
 class IncreasePostView(generics.RetrieveUpdateDestroyAPIView):
     queryset = View.objects.all()
@@ -52,6 +53,7 @@ class IncreasePostLike(generics.RetrieveUpdateDestroyAPIView):
         serializer = self.get_serializer(instance)
         return Response(serializer.data, status=status.HTTP_200_OK)
     
+'''
 
 
 

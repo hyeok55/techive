@@ -13,19 +13,6 @@ class PostSerializer(serializers.ModelSerializer):
         fields = ['id','title', 'company', 'date','url']
 
 
-class PostViewSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = View
-        fields = ['id','views']
-
-class PostLikeSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Like
-        fields = ['id','likes']
-
-
-
-
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:

@@ -5,8 +5,6 @@ from .models import *
 
 admin.site.register(Company)
 admin.site.register(Post)
-admin.site.register(View)
-admin.site.register(Like)
 admin.site.register(Tag)
 admin.site.register(Post_tag)
 admin.site.register(Company_Tag)
