@@ -1,6 +1,5 @@
 # React & Django
 Techblog를 크롤링하여 serializer RestAPI를 이용한 시각화 및 대시보드 구축 웹 프로젝트
-
 ![](https://velog.velcdn.com/images/jg31109/post/0f3ceb28-e590-4e73-900c-5fe66fc707a4/image.png)
 
 ------------
